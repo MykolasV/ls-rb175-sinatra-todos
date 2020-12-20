@@ -1,6 +1,4 @@
-***This is a Git Repository***
-
-to test the app locally,
+To test the app locally,
 
 run 'heroku local web -f Procfile.windows' from powershell if on windows.
 
