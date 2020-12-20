@@ -1,0 +1,11 @@
+***This is a Git Repository***
+
+to test the app locally,
+
+run 'heroku local web -f Procfile.windows' from powershell if on windows.
+
+if not on windows, replace Procfile.windows with Procfile with content:
+
+'web: bundle exec puma -t 5:5 -p ${PORT:-3000} -e ${RACK_ENV:-development}''
+
+and run 'heroku local' in command line.
